@@ -1,23 +1,37 @@
 h1 {
-    margin-top: 20%;
-    margin-left: 29%;
-    margin-bottom: 10%
-  }
+    text-align: center;
+    padding: 0px;
+    }
 
 h2 {
-    margin-top: 5%;
-    margin-left: 33%;
+  text-align: center;
+  padding: 0px;
   }
+
 div {
     margin-left: 30%
 }
 ul {
-    margin-left: 31%
+    margin-left: 1%;
+    margin-right: 30%;
+    position: fixed;
+    overflow: hidden;
+    top: 40%;
+    width: 100%;
 }
+
 div {
-    margin-left: 5%;
-    margin-right: 5%
+    margin-left: 9%;
+    margin-right: 1%
 }
+
+h5 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+
 /*!
  * Bootswatch v4.4.1
  * Homepage: https://bootswatch.com
