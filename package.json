@@ -1,0 +1,20 @@
+{
+  "name": "javascript_postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "fullGdp": "node fullGdp.js",
+    "fullContinents": "node fullContinents.js",
+    "fullLife": "node fullLife.js",
+    "fullPopulation": "node fullPopulation.js"
+  },
+  "author": "nbach",
+  "license": "ISC",
+  "dependencies": {
+    "cs": "^1.0.3",
+    "fs": "0.0.1-security",
+    "pg": "^8.0.2"
+  }
+}
