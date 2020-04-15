@@ -13,6 +13,8 @@
   "author": "nbach",
   "license": "ISC",
   "dependencies": {
+    "cs": "^1.0.3",
+    "fs": "0.0.1-security",
     "pg": "^8.0.2"
   }
 }

@@ -1,15 +1,9 @@
-const Client = require('pg').Client
-const client = new Client({
-    user: "postgres",
-    password: "postgres",
-    host: "localhost",
-    port: 5432,
-    database: "gdp_db"
-})
-
-client.connect()
-.then(() => console.log("Connected successfully"))
-.then(() => client.query("select * from life_exp"))
-.then(results => console.table(results.rows))
-.catch(e => console.log(e))
-.finally(() => client.end())
+const pg = require('pg');
+const fs = require('fs')
+const cs = 'postgres://postgres:postgres@localhost:5432/gdp_db';
+const client = new pg.Client(cs);
+client.connect();
+client.query("select * from life_exp").then(res => {
+    const data = res.rows;
+    fs.writeFileSync('life.json', JSON.stringify(data))
+}).finally(() => client.end());
