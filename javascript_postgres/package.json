@@ -14,6 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "cs": "^1.0.3",
+    "csv-generate": "^3.2.4",
+    "csv-stringify": "^5.3.6",
     "fs": "0.0.1-security",
     "lodash": "^4.17.15",
     "pg": "^8.0.2"
