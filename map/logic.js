@@ -68,8 +68,8 @@ else if(le>=50){
 
   
   d3.json(link).then (function(countriesdata) {
-    var life = {}
-    var link = "life_ex_2017.json";
+    // var life = {}
+    // var link = "life_ex_2017.js";
     
   
     // Creating a geoJSON layer with data
