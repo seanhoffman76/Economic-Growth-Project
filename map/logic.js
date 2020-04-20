@@ -64,7 +64,7 @@ else if(le>=50){
     weight: 1
   };
   
-  var link = "../Raw Data/borders/countries.geojson";
+  var link = "countries.geojson";
 
   
   d3.json(link).then (function(countriesdata) {
